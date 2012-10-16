@@ -1,0 +1,857 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+
+<!--  PRODUCTION -->
+
+	<production>
+		<!--  STARTUP CONFIG -->	
+
+		<param name="application.stringbundle_path"			>xml/config/dulux_colour_awards_2011_</param>
+		
+		<param name="system.domain"							>http://dulux.com.au/colourawards/</param>
+
+		<param name="system.services.baseURL"				>http://dulux.com.au/</param>
+		
+		<param name="system.services.SaveEntry"				>umbraco/colourawards/SaveEntry.ashx</param>
+		<param name="system.services.Login"					>umbraco/colourawards/Login.ashx</param>
+		<param name="system.services.GetSubmittedEntries"	>umbraco/colourawards/GetSubmittedEntries.ashx</param>
+		<param name="system.services.Upload"				>umbraco/colourawards/upload.ashx</param>
+		<param name="system.services.GetMemberDetails"		>umbraco/colourawards/GetMemberDetails.ashx</param>
+
+			
+		<!--  BACKEND URLS -->
+		
+		<!--  OTHER URLS -->
+
+		<param name="links.forms.register"					>http://www.dulux.com.au/specifier/site-tools/register</param>
+		<param name="links.share.facebook"					>http://www.facebook.com/share.php?u=http://dulux.com.au/colourawards/</param>
+		<param name="links.share.share"						>http://sharethis.com</param>
+		<param name="links.downloads.entry_form"			>pdf/NZPNG_entryform.pdf</param>
+
+		<!--  PAGES -->
+		<param name="application.navigation">
+			<item label="ABOUT" 				value="Page : About"></item>
+			<item label="HOW TO ENTER" 			value="Page : How to Enter"></item>
+<!--			<item label="2011 SHORTLIST"		value="Page : 2011 Shortlist"></item>  		-->
+			<item label="2011 WINNERS" 				value="Page : Gallery"></item>
+			<item label="JUDGING PANEL" 		value="Page : Judging Panel"></item>
+			<item label="CATEGORIES & PRIZES" 	value="Page : Categories & Prizes"></item>
+			<item label="CONTACT US" 			value="Page : Contact Us"></item>
+		</param>
+		
+		<!--  GALLERY -->
+		<param name="application.gallery">
+			<item label="Awards Ceremony & Winners" 				value="Gallery : 2011 Award Night Photos" 	type="Gallery type : simple">
+				<LoaderMax name="Awards Ceremony & Winners" load="false">
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_01.jpg" name="Dulux Colour Awards Venue Entrance: Paddington Town Hall, Sydney" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_02.jpg" name="Supporting the Design Profession for 25 years" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_03.jpg" name="Inside the Paddington Town Hall, before the guest begin to arrive" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_04.jpg" name="Inside the Paddington Town Hall, before the guest begin to arrive" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_05.jpg" name="Guests viewing the entries" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_06.jpg" name="Guests viewing the entries" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_07.jpg" name="Guests viewing the entries" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_08.jpg" name="Dancing through the decades" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_09.jpg" name="2011 Dulux Colour Awards judges pictured with the Dulux Colour Awards category winners" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_10.jpg" name="Dulux Colour Awards judges (first & second round) pictured with the 2011 Dulux Colour Awards winners" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_11.jpg" name="Brian Zulaikha with Grand Prix Winner, Callum Fraser of Elenberg Fraser" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_12.jpg" name="Commercial Interior Winner, Matthew Herbert of Herbert & Mason Architecture accepting his Award" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_13.jpg" name="Brian Zulaikha presenting Commercial Interior Winner, Matthew Herbert of Herbert & Mason Architecture" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_14.jpg" name="Brian with Dulux Colour Awards MC Cameron Bruhn" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_15.jpg" name="Dulux Colour Awards Commercial Exterior Winner, Vaughn Lane of S2F Architecture accepting his Award" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_16.jpg" name="Brian, presenting award to Senior Associate Vaughn Lane and Director Victor De Baets" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_17.jpg" name="Brian Zulaikha with Dulux Colour Awards MC, Cameron Bruhn" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_18.jpg" name="Dulux Colour Awards judge Kerry Phelan with Residential Interior Winner David Boyle " />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_19.jpg" name="Kerry Phelan presenting Residential Interior Winner, David Boyle with his prize " />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_20.jpg" name="Dulux Colour Awards judge Kerry Phelan with Residential Exterior Winner Callum Fraser" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_21.jpg" name="Dulux Colour Awards judge Kerry Phelan congratulating Residential Exterior Winner Callum Fraser" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_22.jpg" name="Dulux Colour Awards Sustainable Interior Winner: Ryan Russell of Russell and George " />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_23.jpg" name="Dulux Colour Awards judge Kirrily Johnston congratulating Student Winner Gemma Caon" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_24.jpg" name="Dulux Colour Awards Judge Kirrily Johnston talking with Cameron Bruhn" />
+					<ImageLoader url="images/award night 2011/DCA_2011_AwardsNight_25.jpg" name="2011 Dulux Colour Award Winners" />
+			   </LoaderMax>				
+			</item>
+			<item label="2011 Winners"			 				value="Gallery : 2011 Winners" 				type="Gallery type : none">
+				<subItem label="Grand Prix & Residential Exterior" 	value="Grand Prix & Residential Exterior" 	type="Gallery type : advanced">
+					<copy><![CDATA[<p><b>Entry Title: </b>A'Beckett Tower<br><p class="paragraphBreak">%0D</p>
+						<b>Entrant: </b>Elenberg Fraser.<br><p class="paragraphBreak">%0D</p>
+						<b>Comments: </b>This is clearly an outstanding use of colour in architecture, used brilliantly to complement the functionality of the balconies and primary façade, creating identity for the building as Urban Design, as well as the individual occupants.<br><p class="paragraphBreak">%0D</p>
+						<b>Photographer: </b>Peter Clarke / John Gollings</p>]]></copy>
+					<LoaderMax name="Grand Prix & Residential Exterior" load="false">
+						<ImageLoader url="images/winners 2011/RE1.jpg" 			name="A'Beckett Tower" />
+						<ImageLoader url="images/winners 2011/RE2.jpg" 			name="A'Beckett Tower" />
+						<ImageLoader url="images/winners 2011/RE3.jpg" 			name="A'Beckett Tower" />
+						<ImageLoader url="images/winners 2011/RE4.jpg" 			name="A'Beckett Tower" />
+					</LoaderMax>
+				</subItem>
+
+				<subItem label="Residential Interior" 						value="Residential Interior"   						type="Gallery type : advanced">
+					<copy><![CDATA[<p><b>Entry Title:</b> Burridge Rd Residence.<br><p class="paragraphBreak">%0D</p>
+						<b>Entrant:</b> David Boyle Architect.<br><p class="paragraphBreak">%0D</p>
+						<b>Judges Comment:</b> The colours of the beautiful native bush, surrounding the house, have been brought into the interior, each complements the other. Creating a series of serene yet interesting spaces.</b><span class="entry"><br><p class="paragraphBreak">%0D</p>
+						<b>Photographer:</b> Brett Boardman.</p>]]></copy>
+					<LoaderMax name="Residential Interior" load="false">
+						<ImageLoader url="images/winners 2011/RI1.jpg" 			name="Burridge Rd Residence" />
+						<ImageLoader url="images/winners 2011/RI2.jpg" 			name="Burridge Rd Residence" />
+						<ImageLoader url="images/winners 2011/RI3.jpg" 			name="Burridge Rd Residence" />
+						<ImageLoader url="images/winners 2011/RI4.jpg" 			name="Burridge Rd Residence" />
+						<ImageLoader url="images/winners 2011/RI5.jpg" 			name="Burridge Rd Residence" />
+					</LoaderMax>
+				</subItem>
+				
+				<subItem label="Commercial Exterior" 						value="Commercial Exterior"    						type="Gallery type : advanced">
+					<copy><![CDATA[<p><b>Entry Title:</b> Nambour General Hosptial New Ward Block.<br><p class="paragraphBreak">%0D</p>
+					<b>Entrant:</b> S2F.<br><p class="paragraphBreak">%0D</p>
+					<b>Comments:</b> The new ward block has been treated in a sensitive way with a gorgeous range of earthy natural colours from tangerine to bronze. These muted colours have been used to complement the bushland environment. The Dulux colour, City Pearl, has been used as a screening element complementing the adjacent brick and concrete material. A simple and elegant solution overall.</b><span class="entry"><br><p class="paragraphBreak">%0D</p>
+					<b>Photographer:</b> Richard Glover.</p>]]></copy>
+					<LoaderMax name="Commercial Exterior" load="false">
+						<ImageLoader url="images/winners 2011/CE1.jpg" 			name="Nambour General Hosptial New Ward Block" />
+						<ImageLoader url="images/winners 2011/CE2.jpg" 			name="Nambour General Hosptial New Ward Block" />
+						<ImageLoader url="images/winners 2011/CE3.jpg" 			name="Nambour General Hosptial New Ward Block" />
+						<ImageLoader url="images/winners 2011/CE4.jpg" 			name="Nambour General Hosptial New Ward Block" />
+						<ImageLoader url="images/winners 2011/CE5.jpg" 			name="Nambour General Hosptial New Ward Block" />
+					</LoaderMax>
+				</subItem>
+				
+				<subItem label="Commercial Interior" 						value="Commercial Interior"   						type="Gallery type : advanced">
+					<copy><![CDATA[<p><b>Entry Title:</b> Bleu.<br><p class="paragraphBreak">%0D</p>
+					<b>Entrant:</b> Herbert & Mason Architecture.<br><p class="paragraphBreak">%0D</p>
+					<b>Comments:</b> This exemplifies the use of a single colour to give impact and serenity to a temporary entertainment space.</b><span class="entry"><br><p class="paragraphBreak">%0D</p>
+					<b>Photographer:</b> Peter Bennetts.</p>]]></copy>
+					<LoaderMax name="Commercial Interior" load="false">
+						<ImageLoader url="images/winners 2011/CI1.jpg" 			name="Bleu" />
+						<ImageLoader url="images/winners 2011/CI2.jpg" 			name="Bleu" />
+						<ImageLoader url="images/winners 2011/CI3.jpg" 			name="Bleu" />
+						<ImageLoader url="images/winners 2011/CI4.jpg" 			name="Bleu" />
+					</LoaderMax>
+				</subItem>
+				
+				<subItem label="Sustainable Interior" 						value="Sustainable Interior" 						type="Gallery type : advanced">
+					<copy><![CDATA[<p><b>Entry Title:</b> Review.<br><p class="paragraphBreak">%0D</p>
+					<b>Entrant:</b> Russell & George.<br><p class="paragraphBreak">%0D</p>
+					<b>Comments:</b> The use of a single colour to create depth, shadow and light forming a feminine backdrop to the garments. This rebranding project allows the clothes speak for themselves.<br><p class="paragraphBreak">%0D</p>
+					<b>Photographer:</b> Dianne Snape.</p>]]></copy>
+					<LoaderMax name="Sustainable Interior" load="false">
+						<ImageLoader url="images/winners 2011/SI1.jpg" 			name="Review" />
+						<ImageLoader url="images/winners 2011/SI2.jpg" 			name="Review" />
+						<ImageLoader url="images/winners 2011/SI3.jpg" 			name="Review" />
+						<ImageLoader url="images/winners 2011/SI4.jpg" 			name="Review" />
+						<ImageLoader url="images/winners 2011/SI5.jpg" 			name="Review" />
+					</LoaderMax>
+				</subItem>	
+								
+				<subItem label="Student" 							value="Student" 							type="Gallery type : advanced">
+					<copy><![CDATA[<p><b>Entry Title:</b> MADS.<br><p class="paragraphBreak">%0D</p>
+					<b>Entrant:</b> Gemma Caon – University of South Australia, School of Art, Architecture and Design.<br><p class="paragraphBreak">%0D</p>
+					<b>Comments:</b> Designed as a beautiful object, the module lands and creates a space for young designers. Contemporary yet traditional colours are contrasted against a heritage environment.</b><span class="entry"><br><p class="paragraphBreak">%0D</p>
+					</p>]]></copy>
+					<LoaderMax name="Student" load="false">
+						<ImageLoader url="images/winners 2011/ST1.jpg" 			name="MADS" />
+						<ImageLoader url="images/winners 2011/ST2.jpg" 			name="MADS" />
+						<ImageLoader url="images/winners 2011/ST3.jpg" 			name="MADS" />
+						<ImageLoader url="images/winners 2011/ST4.jpg" 			name="MADS" />
+					</LoaderMax>
+				</subItem>					
+			</item>
+		</param>
+			
+
+		<param name="application.timeline.modes">
+			<item label="COLOUR HISTORY" 		value="Type : Colour History"></item>
+			<item label="PAST WINNERS" 			value="Type : Past Winners"></item>
+		</param>
+
+		<param name="shortlist.content">
+			<commext>
+				<entry>
+					<thumbnail>images/commext/Byron_Community_Primary_School_thumb.jpg</thumbnail>
+					<image>images/commext/Byron_Community_Primary_School.jpg</image>
+					<company>Space Studio Pty Ltd</company>
+					<project>Byron Community Primary School</project>
+					<photographer>David Taylor</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/ELTHAM_College_Prep_Multi-Purpose-Building_thumb.jpg</thumbnail>
+					<image>images/commext/ELTHAM_College_Prep_Multi-Purpose-Building.jpg</image>
+					<company>Clarke Hopkins and Clarke</company>
+					<project>Eltham College Prep &amp; Multi-Purpose Building</project>
+					<photographer>Sheer Will Photography and Matthew Mallet Photography</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/Highgate_Reserve_Pavilion_thumb.jpg</thumbnail>
+					<image>images/commext/Highgate_Reserve_Pavilion.jpg</image>
+					<company>Suters Architects</company>
+					<project>Highgate Reserve Pavilion</project>
+					<photographer>Emma Cross</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/Maribyrnong_Sports_Academy_thumb.jpg</thumbnail>
+					<image>images/commext/Maribyrnong_Sports_Academy.jpg</image>
+					<company>Suters Architects</company>
+					<project>Maribyrnong Sports Academy</project>
+					<photographer>Emma Cross</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/Saffire_Resort_thumb.jpg</thumbnail>
+					<image>images/commext/Saffire_Resort.jpg</image>
+					<company>Circa Architecture</company>
+					<project>Saffire Resort</project>
+					<photographer>Peter Whyte</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/Scott_Penn_Hall_thumb.jpg</thumbnail>
+					<image>images/commext/Scott_Penn_Hall.jpg</image>
+					<company>Scott Penn Hall</company>
+					<project>Eco 541</project>
+					<photographer>Joel Barbitta</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/Nambour_General_Hospital_New_Ward_Block_thumb.jpg</thumbnail>
+					<image>images/commext/Nambour_General_Hospital_New_Ward_Block.jpg</image>
+					<company>S2F</company>
+					<project>Nambour General Hospital New Ward Block</project>
+					<photographer>Richard Glover</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/Mangere_Arts_Centre_thumb.jpg</thumbnail>
+					<image>images/commext/Mangere_Arts_Centre.jpg</image>
+					<company>Creative Spaces Ltd</company>
+					<project>Mangere Arts Centre</project>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/MtEden_Methodist_Church_Village_Centre_thumb.jpg</thumbnail>
+					<image>images/commext/MtEden_Methodist_Church_Village_Centre.jpg</image>
+					<company>Matthews &amp; Matthews Architects Ltd</company>
+					<project>Mt Eden Methodist Church &amp; Village Centre</project>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/Roseworth_Primary_School_Roseworth_Education_Support_Centre_thumb.jpg</thumbnail>
+					<image>images/commext/Roseworth_Primary_School_Roseworth_Education_Support_Centre.jpg</image>
+					<company>The Architecture Group Pty Ltd</company>
+					<project>Roseworth Primary School &amp; Roseworth Education Support Centre</project>
+					<photographer>TAG Architects / Acorn Photo Agency</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commext/TRIO_Camperdown_thumb.jpg</thumbnail>
+					<image>images/commext/TRIO_Camperdown.jpg</image>
+					<company>Fender Katsalidis</company>
+					<project>TRIO Camperdown</project>
+					<photographer>John Gollings / Tom Evangelidis</photographer>
+				</entry>
+			</commext>
+			<commint>
+				<entry>
+					<thumbnail>images/commint/Giant_Steps_Markaling_House_thumb.jpg</thumbnail>
+					<image>images/commint/Giant_Steps_Markaling_House.jpg</image>
+					<company>Mury Architects</company>
+					<project>Giant Steps: Markaling House</project>
+					<photographer>Brett Boardman</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Fahan_School_Gymnasium_and_Performing_Arts_Centre_thumb.jpg</thumbnail>
+					<image>images/commint/Fahan_School_Gymnasium_and_Performing_Arts_Centre.jpg</image>
+					<company>Jaws Architects</company>
+					<project>Fahan School Gymnasium and Performing Arts Centre</project>
+					<photographer>Jonathan Wherrett</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/ELTHAM_College_Prep_Multi-Purpose_Building_thumb.jpg</thumbnail>
+					<image>images/commint/ELTHAM_College_Prep_Multi-Purpose_Building.jpg</image>
+					<company>Clarke Hopkins and Clarke</company>
+					<project>Eltham College Prep &amp; Multi-Purpose Building</project>
+					<photographer>Sheer Will Photography and Matthew Mallet Photography</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Highgate_Reserve_Pavilion_thumb.jpg</thumbnail>
+					<image>images/commint/Highgate_Reserve_Pavilion.jpg</image>
+					<company>Suters Architects</company>
+					<project>Highgate Reserve Pavilion</project>
+					<photographer>Emma Cross</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Maribyrnong_Sports_Academy_thumb.jpg</thumbnail>
+					<image>images/commint/Maribyrnong_Sports_Academy.jpg</image>
+					<company>Suters Architects</company>
+					<project>Maribyrnong Sports Academy</project>
+					<photographer>Emma Cross</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Ecoscience_Precinct_thumb.jpg</thumbnail>
+					<image>images/commint/Ecoscience_Precinct.jpg</image>
+					<company>HASSELL</company>
+					<project>Ecoscience Precinct</project>
+					<photographer>Christopher Frederick Jones</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/TechnologyOne_thumb.jpg</thumbnail>
+					<image>images/commint/TechnologyOne.jpg</image>
+					<company>HASSELL</company>
+					<project>TechnologyOne</project>
+					<photographer>Christopher Frederick Jones</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/A_Splash_of_Colour_thumb.jpg</thumbnail>
+					<image>images/commint/A_Splash_of_Colour.jpg</image>
+					<company>Sue Lenahan, Colour Designer</company>
+					<project>A Splash of Colour</project>
+					<photographer>Sue Lenehan</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Hawker_Primary_School_thumb.jpg</thumbnail>
+					<image>images/commint/Hawker_Primary_School.jpg</image>
+					<company>Dare 2 Design Interiors</company>
+					<project>Hawker Primary School</project>
+					<photographer>Gemma Lingwood, Jessica Merrigan</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/St_Brendans_Primary_School_thumb.jpg</thumbnail>
+					<image>images/commint/St_Brendans_Primary_School.jpg</image>
+					<company>Via Architettura Pty Ltd</company>
+					<project>St Brendan's Primary School</project>
+					<photographer>Yvonne Qumi</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Bleu_thumb.jpg</thumbnail>
+					<image>images/commint/Bleu.jpg</image>
+					<company>Herbert &amp; Mason Architecture</company>
+					<project>Bleu</project>
+					<photographer>Peter Bennetts</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Light_Play_NGV_Kids_Corner_thumb.jpg</thumbnail>
+					<image>images/commint/Light_Play_NGV_Kids_Corner.jpg</image>
+					<company>National Gallery of Victoria</company>
+					<project>Light Play: NGV Kids Corner</project>
+					<photographer>NGV Photograhic Services</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Warm_Water_Pool_Knox_Leisureworks_thumb.jpg</thumbnail>
+					<image>images/commint/Warm_Water_Pool_Knox_Leisureworks.jpg</image>
+					<company>Antarctica Group Pty Ltd</company>
+					<project>Warm Water Pool Knox Leisureworks</project>
+					<photographer>Graham Crist</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Spicers_Balfour_Hotel_thumb.jpg</thumbnail>
+					<image>images/commint/Spicers_Balfour_Hotel.jpg</image>
+					<company>Coop Creative pty Ltd</company>
+					<project>Spicers Balfour Hotel</project>
+					<photographer>Steve Ryan - Rix Ryan Photography</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Loburn_School_Library_thumb.jpg</thumbnail>
+					<image>images/commint/Loburn_School_Library.jpg</image>
+					<company>Cymon Allfrey Architects</company>
+					<project>Loburn School Library</project>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Eden_Park_Redevelopment_thumb.jpg</thumbnail>
+					<image>images/commint/Eden_Park_Redevelopment.jpg</image>
+					<company>Jasmax Ltd</company>
+					<project>Eden Park Redevelopment</project>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Land_Information_New_Zealand_thumb.jpg</thumbnail>
+					<image>images/commint/Land_Information_New_Zealand.jpg</image>
+					<company>Creative Spaces Ltd</company>
+					<project>Land Information New Zealand</project>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Mangere_Arts_Centre_thumb.jpg</thumbnail>
+					<image>images/commint/Mangere_Arts_Centre.jpg</image>
+					<company>Creative Spaces Ltd</company>
+					<project>Mangere Arts Centre</project>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Jewel_Cave_Preservation_Centre_thumb.jpg</thumbnail>
+					<image>images/commint/Jewel_Cave_Preservation_Centre.jpg</image>
+					<company>Creative Spaces</company>
+					<project>Jewel Cave Preservation Centre</project>
+					<photographer>Katrina Skinner</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Warwick_Credit_Union_thumb.jpg</thumbnail>
+					<image>images/commint/Warwick_Credit_Union.jpg</image>
+					<company>Ceccato Hall</company>
+					<project>Warwick Credit Union</project>
+					<photographer>Scott Burrows</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/FEX_thumb.jpg</thumbnail>
+					<image>images/commint/FEX.jpg</image>
+					<company>Burley Katon Halliday</company>
+					<project>Fex</project>
+					<photographer>Sharrin Rees</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Brownless_Biomedical_Library_thumb.jpg</thumbnail>
+					<image>images/commint/Brownless_Biomedical_Library.jpg</image>
+					<company>McBride Charles Ryan</company>
+					<project>Brownless Biomedical Library</project>
+					<photographer>John Gollings</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Impact_Training_Institute_thumb.jpg</thumbnail>
+					<image>images/commint/Impact_Training_Institute.jpg</image>
+					<company>Isabella Australiasian Design</company>
+					<project>Impact Training Institute</project>
+					<photographer>In house Photographic Renderings</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/TRIO_Camperdown_thumb.jpg</thumbnail>
+					<image>images/commint/TRIO_Camperdown.jpg</image>
+					<company>Fender Katsalidis</company>
+					<project>TRIO Camperdown</project>
+					<photographer>John Gollings / Tom Evangelidis</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Alkira_Secondary_College_thumb.jpg</thumbnail>
+					<image>images/commint/Alkira_Secondary_College.jpg</image>
+					<company>Hayball</company>
+					<project>Alkira Secondary College</project>
+					<photographer>Peter Clarke Photography</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Twisted_Frozen_Yoghurt_thumb.jpg</thumbnail>
+					<image>images/commint/Twisted_Frozen_Yoghurt.jpg</image>
+					<company>Morris Selvatico</company>
+					<project>Twisted Frozen Yoghurt</project>
+					<photographer>Ben Cole</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Bupa_Aged_Care_Facility-Berry_thumb.jpg</thumbnail>
+					<image>images/commint/Bupa_Aged_Care_Facility-Berry.jpg</image>
+					<company>B2 Property Solutions</company>
+					<project>Bupa Aged Care Facility - Berry</project>
+					<photographer>B2 Property Solutions</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Order-In_thumb.jpg</thumbnail>
+					<image>images/commint/Order-In.jpg</image>
+					<company>See It In Colour</company>
+					<project>Order-In</project>
+					<photographer>Kerry Copp</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Cocos_Early_Learning_Centre_thumb.jpg</thumbnail>
+					<image>images/commint/Cocos_Early_Learning_Centre.jpg</image>
+					<company>Perkins Architects</company>
+					<project>Coco's Early Learning Centre</project>
+					<photographer>Yuyu Huang</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Crumpler_Doncaster_thumb.jpg</thumbnail>
+					<image>images/commint/Crumpler_Doncaster.jpg</image>
+					<company>Russell &amp; George</company>
+					<project>Crumpler Doncaster</project>
+					<photographer>Dianna Snape</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/commint/Norton_Rose_Canberra_thumb.jpg</thumbnail>
+					<image>images/commint/Norton_Rose_Canberra.jpg</image>
+					<company>Carr Design</company>
+					<project>Norton Rose Canberra</project>
+					<photographer>Ian Ten Seldam</photographer>
+				</entry>
+			</commint>
+			<resext>
+				<entry>
+					<thumbnail>images/resext/Jemalong_Residential_Village_Forbes_NSW_thumb.jpg</thumbnail>
+					<image>images/resext/Jemalong_Residential_Village_Forbes_NSW.jpg</image>
+					<company>Havenhand Mather Architects</company>
+					<project>Jemalong Residential Village, Forbes NSW</project>
+					<photographer>Peter Gumpet, Bathurst  NSW</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Clay_Street_Eco-Haus_thumb.jpg</thumbnail>
+					<image>images/resext/Clay_Street_Eco-Haus.jpg</image>
+					<company>Archertec Interiors</company>
+					<project>Clay Street Eco-Haus</project>
+					<photographer>The Mark Agency - Jeremy Rozdarz</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Short_Street_thumb.jpg</thumbnail>
+					<image>images/resext/Short_Street.jpg</image>
+					<company>Sue Lenahan Colour Designer</company>
+					<project>Short Street</project>
+					<photographer>Sue Lenehan</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Colour_Graphics_thumb.jpg</thumbnail>
+					<image>images/resext/Colour_Graphics.jpg</image>
+					<company>Felicia for Lifestyle-Design</company>
+					<project>Colour Graphics</project>
+					<photographer>Abigail Harman</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/50s_Heritage_Residence_thumb.jpg</thumbnail>
+					<image>images/resext/50s_Heritage_Residence.jpg</image>
+					<company>Keith Lodge Architect</company>
+					<project>50's Heritage Residence</project>
+					<photographer>Kajetan Fiedorowicz</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/ABeckett_Tower_thumb.jpg</thumbnail>
+					<image>images/resext/ABeckett_Tower.jpg</image>
+					<company>Elenberg Fraser</company>
+					<project>A'Beckett Tower</project>
+					<photographer>Peter Clarke / John Gollings</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Raumati_Beach_House_thumb.jpg</thumbnail>
+					<image>images/resext/Raumati_Beach_House.jpg</image>
+					<company>Colour Options</company>
+					<project>Raumati Beach House</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Orewa_Beach_House_thumb.jpg</thumbnail>
+					<image>images/resext/Orewa_Beach_House.jpg</image>
+					<company>Donna White  Interior Design</company>
+					<project>Orewa Beach House</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/TERRACE_421c_thumb.jpg</thumbnail>
+					<image>images/resext/TERRACE_421c.jpg</image>
+					<company>Craig Perry Peter Dann Pty ltd</company>
+					<project>TERRACE 421c</project>
+					<photographer>Peter Dann</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Summers_Street_Townhouses_thumb.jpg</thumbnail>
+					<image>images/resext/Summers_Street_Townhouses.jpg</image>
+					<company>Fratelle Group</company>
+					<project>Summers Street Townhouses</project>
+					<photographer>Robert Gordon</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/South_Yarra_Residence_thumb.jpg</thumbnail>
+					<image>images/resext/South_Yarra_Residence.jpg</image>
+					<company>L.S.A. Architects</company>
+					<project>South Yarra Residence</project>
+					<photographer>Urban Angles</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Mona_Vale_Beach_House_makeover_thumb.jpg</thumbnail>
+					<image>images/resext/Mona_Vale_Beach_House_makeover.jpg</image>
+					<company>Design &amp; Colour 2</company>
+					<project>Mona Vale Beach House makeover</project>
+					<photographer>Michelle Sloane</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Arcadia_Downs_Hooks_thumb.jpg</thumbnail>
+					<image>images/resext/Arcadia_Downs_Hooks.jpg</image>
+					<company>Wendy Rossignoli Interiors</company>
+					<project>Arcadia Downs / Hooks</project>
+					<photographer>David Stradling</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Kooringal_Retreat_thumb.jpg</thumbnail>
+					<image>images/resext/Kooringal_Retreat.jpg</image>
+					<company>Coniglio Ainsworth Architects</company>
+					<project>Kooringal Retreat</project>
+					<photographer>Ange Wall</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Lot_11_Beachront_Mirage_thumb.jpg</thumbnail>
+					<image>images/resext/Lot_11_Beachront_Mirage.jpg</image>
+					<company>AH Design Concepts</company>
+					<project>Lot 11 Beachront Mirage</project>
+					<photographer>Campbell Noonan, Colyn Huber</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resext/Heritage_thumb.jpg</thumbnail>
+					<image>images/resext/Heritage.jpg</image>
+					<company>Diamantina Design</company>
+					<project>Heritage</project>
+				</entry>
+			</resext>
+			<resint>
+				<entry>
+					<thumbnail>images/resint/Rye_House_thumb.jpg</thumbnail>
+					<image>images/resint/Rye_House.jpg</image>
+					<company>Timmins &amp; Whyte Pty Ltd</company>
+					<project>Rye House</project>
+					<photographer>Rhiannon Slatter</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Lexton_Grove_thumb.jpg</thumbnail>
+					<image>images/resint/Lexton_Grove.jpg</image>
+					<company>Michael Ellis Architects P/L</company>
+					<project>Lexton Grove</project>
+					<photographer>YQ Photography</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Bucknall_Court_thumb.jpg</thumbnail>
+					<image>images/resint/Bucknall_Court.jpg</image>
+					<company>PTA Architecture</company>
+					<project>Bucknall Court</project>
+					<photographer>Billy Voon</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/GT_Cowper_thumb.jpg</thumbnail>
+					<image>images/resint/GT_Cowper.jpg</image>
+					<company>Jodie Carter Design</company>
+					<project>G&amp;T Cowper</project>
+					<photographer>Tara Cowper</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Murphy_House_Glacial_Rock_Farm_thumb.jpg</thumbnail>
+					<image>images/resint/Murphy_House_Glacial_Rock_Farm.jpg</image>
+					<company>Irene Benfell</company>
+					<project>Murphy House (Glacial Rock Farm)</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Dine_by_Design_thumb.jpg</thumbnail>
+					<image>images/resint/Dine_by_Design.jpg</image>
+					<company>Alex Fulton Design</company>
+					<project>Dine by Design</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/The_Esplanade_House_thumb.jpg</thumbnail>
+					<image>images/resint/The_Esplanade_House.jpg</image>
+					<company>Colour Options</company>
+					<project>The Esplanade House</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Waiheke_Bach_thumb.jpg</thumbnail>
+					<image>images/resint/Waiheke_Bach.jpg</image>
+					<company>Peta Tearle Colour and Design Studio</company>
+					<project>Waiheke Bach</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Coatesville_Country_House_thumb.jpg</thumbnail>
+					<image>images/resint/Coatesville_Country_House.jpg</image>
+					<company>Peta Tearle Colour and Design Studio</company>
+					<project>Coatesville Country House</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Orewa_Beach_House_thumb.jpg</thumbnail>
+					<image>images/resint/Orewa_Beach_House.jpg</image>
+					<company>Donna White  Interior Design</company>
+					<project>Orewa Beach House</project>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/South_Yarra_Residence_thumb.jpg</thumbnail>
+					<image>images/resint/South_Yarra_Residence.jpg</image>
+					<company>L.S.A. Architects</company>
+					<project>South Yarra Residence</project>
+					<photographer>Urban Angles</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Kooringal_Retreat_thumb.jpg</thumbnail>
+					<image>images/resint/Kooringal_Retreat.jpg</image>
+					<company>Coniglio Ainsworth Architects</company>
+					<project>Kooringal Retreat</project>
+					<photographer>Ange Wall</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Lot_11_Beachfront_Mirage_thumb.jpg</thumbnail>
+					<image>images/resint/Lot_11_Beachfront_Mirage.jpg</image>
+					<company>AH Design Concepts</company>
+					<project>Lot 11 Beachfront Mirage</project>
+					<photographer>Campbell Noonan, Colyn Huber</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Burridge_Read_Residence_thumb.jpg</thumbnail>
+					<image>images/resint/Burridge_Read_Residence.jpg</image>
+					<company>David Boyle Architect</company>
+					<project>Burridge Read Residence</project>
+					<photographer>Brett Boardman</photographer>
+				</entry>
+				<entry>
+					<thumbnail>images/resint/Killara_Residence_thumb.jpg</thumbnail>
+					<image>images/resint/Killara_Residence.jpg</image>
+					<company>See It In Colour</company>
+					<project>Killara Residence</project>
+					<photographer>Kerry Copp</photographer>
+				</entry>
+			</resint>
+			<student>
+				<entry>
+					<thumbnail>images/student/Beacon_55_thumb.jpg</thumbnail>
+					<image>images/student/Beacon_55.jpg</image>
+					<name>Gemma Caon</name>
+					<school>University of South Australia, School of Art, Architecture and Design.</school>
+					<project>Beacon 55</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/MADS_thumb.jpg</thumbnail>
+					<image>images/student/MADS.jpg</image>
+					<name>Gemma Caon</name>
+					<school>University of South Australia, School of Art, Architecture and Design.</school>
+					<project>MADS</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Fuse_Splash_thumb.jpg</thumbnail>
+					<image>images/student/Fuse_Splash.jpg</image>
+					<name>Chau Nguyen</name>
+					<school>LVN</school>
+					<project>Fuse Splash</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Megalong_Books_thumb.jpg</thumbnail>
+					<image>images/student/Megalong_Books.jpg</image>
+					<name>Rachel Morse</name>
+					<school>Earthly Goods</school>
+					<project>Megalong Books</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Scouts_Australia_NSW-Buildings_Master_Palette_thumb.jpg</thumbnail>
+					<image>images/student/Scouts_Australia_NSW-Buildings_Master_Palette.jpg</image>
+					<name>Susan Metcalf</name>
+					<school>ISCD</school>
+					<project>Scouts Australia NSW - Buildings Master Palette</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/14_Stepping_Stone_Childcare_Centre_thumb.jpg</thumbnail>
+					<image>images/student/14_Stepping_Stone_Childcare_Centre.jpg</image>
+					<name>Katrina Magaret Pinnington</name>
+					<school>Design &amp; Arts College of NZ</school>
+					<project>14 Stepping Stone Childcare Centre</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Habitots_Childcare_Centre_thumb.jpg</thumbnail>
+					<image>images/student/Habitots_Childcare_Centre.jpg</image>
+					<name>Erin Gilbertson</name>
+					<school>Design &amp; Arts College of NZ</school>
+					<project>Habitots Childcare Centre</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Tiny_Tots_ChildCare_centre_thumb.jpg</thumbnail>
+					<image>images/student/Tiny_Tots_ChildCare_centre.jpg</image>
+					<name>Kelly Hanrahan</name>
+					<school>Design &amp; Arts College of NZ</school>
+					<project>Tiny Tots ChildCare centre</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Poco_Poco_thumb.jpg</thumbnail>
+					<image>images/student/Poco_Poco.jpg</image>
+					<name>Jessica Molony</name>
+					<school>Design &amp; Arts College of NZ</school>
+					<project>Poco Poco</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Tiny_Critters_Childcare_Centre_thumb.jpg</thumbnail>
+					<image>images/student/Tiny_Critters_Childcare_Centre.jpg</image>
+					<name>Danilyn Green</name>
+					<school>Design &amp; Arts College of NZ</school>
+					<project>Tiny Critters Childcare Centre</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Ignition_Cafe_thumb.jpg</thumbnail>
+					<image>images/student/Ignition_Cafe.jpg</image>
+					<name>Brooke Taylor</name>
+					<school>ISCD</school>
+					<project>Ignition Cafe</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Dandenong_Superclinic_thumb.jpg</thumbnail>
+					<image>images/student/Dandenong_Superclinic.jpg</image>
+					<name>Lynette Dawson</name>
+					<project>Dandenong Superclinic</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/Shophouse_thumb.jpg</thumbnail>
+					<image>images/student/Shophouse.jpg</image>
+					<name>Trudi Sommers</name>
+					<school>Sommersknight pty</school>
+					<project>Shophouse</project>
+				</entry>
+				<entry>
+					<thumbnail>images/student/DA_Childcare_Centre_thumb.jpg</thumbnail>
+					<image>images/student/DA_Childcare_Centre.jpg</image>
+					<name>Lucy Oliver</name>
+					<school>Design &amp; Arts College of NZ</school>
+					<project>D &amp; A Childcare Centre</project>
+				</entry>
+			</student>
+			<susint>
+				<entry>
+					<thumbnail>images/susint/Duncan_Cotterill_Christchurch_thumb.jpg</thumbnail>
+					<image>images/susint/Duncan_Cotterill_Christchurch.jpg</image>
+					<company>Warren &amp; Mahoney</company>
+					<project>Duncan Cotterill Christchurch</project>
+				</entry>
+				<entry>
+					<thumbnail>images/susint/Christchurch_Civic_Building_thumb.jpg</thumbnail>
+					<image>images/susint/Christchurch_Civic_Building.jpg</image>
+					<company>Athfield Architects Ltd</company>
+					<project>Christchurch Civic Building</project>
+				</entry>
+				<entry>
+					<thumbnail>images/susint/New_Zealand_Post_thumb.jpg</thumbnail>
+					<image>images/susint/New_Zealand_Post.jpg</image>
+					<company>Creative Spaces Ltd</company>
+					<project>New Zealand Post</project>
+				</entry>
+				<entry>
+					<thumbnail>images/susint/Review_Melbourne_Central_thumb.jpg</thumbnail>
+					<image>images/susint/Review_Melbourne_Central.jpg</image>
+					<company>Russell &amp; George</company>
+					<project>Review Melbourne Central</project>
+					<photographer>Dianne Snape</photographer>
+				</entry>
+			</susint>
+		</param>
+
+		<!--  TRACKING STRINGS -->
+		
+		<!--  APPLICAITON CONFIG -->
+		
+		<param name="application.phase"	>2</param>
+		<param name="default.sound.volume">1.0</param> 
+		<param name="page.video.loadbuffer">5</param>
+		<param name="page.load.maxRetries">3</param>
+		<param name="page.load.timeout">20</param>
+		
+		<!--  ASSETS  -->
+
+		<param name="form.categories.list">
+			<item label="Residential Exterior" value ="Residential Exterior"></item>
+			<item label="Residential Interior" value ="Residential Interior"></item>
+			<item label="Commercial Exterior"  value ="Commercial Exterior"></item>
+			<item label="Commercial Interior"  value ="Commercial Interior"></item>
+			<item label="Sustainable Interior" value ="Sustainable Interior"></item>
+			<item label="Student"              value ="Student"></item>
+		</param>
+
+		<param name="form.referrer.list">
+			<item label="Advertising" 	value ="Advertising"></item>
+			<item label="Direct Mail" 	value ="Direct Mail"></item>
+			<item label="Colour Centre" value ="Colour Centre"></item>
+			<item label="Website"  		value ="Website"></item>
+			<item label="Dulux Rep" 	value ="Dulux Rep"></item>
+			<item label="Other"		 	value ="Other"></item>
+		</param>
+	</production>	
+	
+ 
+<!--  STAGING -->
+
+	<staging extend="production">
+
+	</staging>
+
+
+<!--  DEV -->
+
+	<development extend="staging">
+		
+		<!--  STARTUP CONFIG -->	
+
+		<param name="application.stringbundle_path"			>xml/config/dulux_colour_awards_2011_</param>
+		
+		<param name="system.domain"							>http://www.dulux.com.au/colourawards/</param>
+
+		<param name="system.services.baseURL"				>http://dulux.staging.es-i.com.au/</param>
+		
+		<param name="system.services.SaveEntry"				>umbraco/colourawards/SaveEntry.ashx</param>
+		<param name="system.services.Login"					>umbraco/colourawards/Login.ashx</param>
+		<param name="system.services.GetSubmittedEntries"	>umbraco/colourawards/GetSubmittedEntries.ashx</param>
+		<param name="system.services.Upload"				>umbraco/colourawards/upload.ashx</param>
+		<param name="system.services.GetMemberDetails"		>umbraco/colourawards/GetMemberDetails.ashx</param>
+
+	</development>
+
+
+</config>
+

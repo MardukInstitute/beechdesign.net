@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<siteData>
+	<webservice>http://www2.promoplace.com.au/MessagingGateway/MasterFoodsPromo.asmx?WSDL</webservice>
+	<winners_webservice>http://www2.promoplace.com.au/MessagingGateway/PFWebEntry.asmx?WSDL</winners_webservice>
+	<liteSite>html/Default.aspx</liteSite>
+	<bufferFactor>1.2</bufferFactor>
+	
+<!--	<competitionPhase>competition active</competitionPhase>   -->	
+		<competitionPhase>competition closed</competitionPhase>
+
+<!--	<auctionPhase>coming soon</auctionPhase> -->
+<!--	<auctionPhase>active</auctionPhase> 	-->
+	<auctionPhase>closed</auctionPhase> 	
+	
+	
+	<gacode>UA-3580199-56</gacode>
+	<swf>
+		<fonts>swf/fonts.swf</fonts>
+		<main>swf/BareAllMain.swf</main>
+	</swf>
+	<images>
+		<image>images/MainCamp.jpg</image>
+	</images>
+	<video>
+		<intro>../video/WEB_INTRO.f4v</intro>
+		<intro_loop>../video/WEB_INTRO_LOOP.f4v</intro_loop>
+		<green>../video/WEB_GREEN.f4v</green>
+		<green_loop>../video/WEB_GREEN_LOOP.f4v</green_loop>
+		<blue>../video/WEB_BLUE.f4v</blue>
+		<blue_loop>../video/WEB_BLUE_LOOP.f4v</blue_loop>
+		<yellow>../video/WEB_YELLOW.f4v</yellow>
+		<yellow_loop>../video/WEB_YELLOW_LOOP.f4v</yellow_loop>
+		<red>../video/WEB_RED.f4v</red>
+		<red_loop_A>../video/WEB_RED_LOOP_A.f4v</red_loop_A>
+		<red_loop_B>../video/WEB_RED_LOOP_B.f4v</red_loop_B>
+		<tvc>../video/TVC.mp4</tvc>
+	</video>
+	<content>
+		<auction>
+			<comingSoon>
+				<message>Want to bid on Crispy’s shell? Revisit for a link to the auction in the evening on 11 March 2010.</message>
+<!--				<message>Hey guys, don't forget your chance to bid on Crispy's Shell. Join the M&M'S® Facebook Group for a bid reminder.</message>
+				<link src="http://www.facebook.com/pages/MMSR-Fans/8256166961">BECOME AN M&M'S® FAN ON FACEBOOK</link>
+-->			</comingSoon>
+			<active>
+				<link src="http://www.ebay.com.au"></link>
+			</active>
+			<closed>
+				<message><![CDATA[Hey, sorry you missed the bidding, but Crispy's shell<br>went to lethalgtjoe for $610.]]></message>
+			</closed>
+		</auction>
+		<characterInfo>
+			<green><![CDATA[CRISPY ASKS<br>MISS GREEN.]]></green>
+			<blue><![CDATA[CRISPY TALKS<br>TO BLUE.]]></blue>
+			<yellow><![CDATA[CRISPY<br>QUESTIONS<br>YELLOW.]]></yellow>
+			<red><![CDATA[CRISPY<br>CONFONTS RED.]]></red>
+			<auctionButton><![CDATA[JOIN THE<br>AUCTION]]></auctionButton>
+		</characterInfo>
+		<tooltip>
+			<green><![CDATA[Go to Miss Green first]]></green>
+			<blue><![CDATA[Go to Blue first]]></blue>
+			<yellow><![CDATA[Go to Yellow first]]></yellow>
+		</tooltip>
+		<preloader>
+			<soundReminder>PLEASE TURN ON YOUR SOUND</soundReminder>
+			<accessibilityReminder><![CDATA[NEED A MORE ACCESSIBLE WEBSITE – <a href="#">VISIT OUR LITE SITE</a>]]></accessibilityReminder>
+		</preloader>
+		<tvc>
+			<header>WHAT HAPPENED LAST NIGHT?</header>
+		</tvc>
+		<prizes>
+			<header>PRIZES</header>
+			<content>There are over 1000 prizes to be won!</content>
+		</prizes>
+		<howtowin>
+			<header>HOW TO WIN</header>
+			<content><![CDATA[<font size="13">Simply buy a 'Bare All' pack of M&M'S® (M&M'S® Milk, M&M'S® Peanut or M&M'S® Crispy) and you could be lucky enough to win one of over 1000 instant prizes!<br><br>If your pack contains stark naked uncoated chocolate M&M'S®, and names a prize and a winning code inside then, subject to verification, you are an instant winner. To claim your prize register your details on this website before 5PM Sydney time on 28 May 2010.<br><br>If you don't have a winning pack, you could still win a prize by entering the Second Chance Draw.<br><br>You can enter the draw on this website, or by sending an SMS (TXT) to the phone number 1971 1791 (for entrants in Australia) or 8393 (for entrants in New Zealand), that comprises in the following order with a space between each item:<br><br>
+				<span class="list">(a) &nbsp; the Unique Code printed inside the 'Bare All' pack used to enter;</span><br>
+				<span class="list">(b) &nbsp; your first name;</span><br>
+				<span class="list">(c) &nbsp; your last name; and</span><br>
+				<span class="list">(d) &nbsp; for an entrant in Australia, his/her postcode</span><br>
+				<span class="list"> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; (optional for New Zealand residents).</span><br>
+				<br><br>Aust SMS Cost 55cents inc GST. NZ SMS Cost 20cents inc GST. Service Provider PrimeFocus 1800 818 957
+				<br><br>Entry into the Second Chance Draw closes at 5PM Sydney time on 28 May 2010.</font>]]></content>
+		</howtowin>
+		<winners>
+			<header>WINNERS</header>
+			<altHeader>STAY TUNED</altHeader>
+			<altCopy><![CDATA[Winners' names will be posted when the competition is completed.]]></altCopy>
+		</winners>
+		<forms>
+			<prizeRedemption>
+				<heading>CLAIM YOUR PRIZE</heading>
+				<message><![CDATA[Complete & submit this form to register your winning pack. <span class="emphasis">Fields marked * are mandatory</span>]]></message>
+				<findPostcode><![CDATA[<a href="http://www.nzpost.co.nz/Cultures/en-NZ/OnlineTools/PostCodeFinder/" target="_blank">Find your postcode</a> ]]></findPostcode>
+				<field label="FIRST NAME" error="Please enter your first name" mandatory="true"></field>
+				<field label="LAST NAME" error="Please enter your last name" mandatory="true"></field>
+				<field label="EMAIL" error="Please enter your email" mandatory="true"></field>
+				<field label="CONFIRM EMAIL" error="Please confirm your email" mandatory="false"></field>
+				<field label="COUNTRY" error="Please select your country" mandatory="true" comboBox="true" initialText="Please select a country">
+					<item label="Australia" value="AU"></item>
+					<item label="New Zealand" value="NZ"></item>
+				</field>
+				<field label="STATE" error="Please select your state" mandatory="true" comboBox="true" initialText="Please select a state">
+					<item label="Australian Capital Territory" value="ACT" />
+					<item label="New South Wales" value="NSW" />
+					<item label="Northern Territory" value="NT" />
+					<item label="Queensland" value="QLD" />
+					<item label="South Australia" value="SA" />
+					<item label="Tasmania" value="TAS" />
+					<item label="Victoria" value="VIC" />
+					<item label="Western Australia" value="WA" />
+				</field>
+				<field label="PHONE NUMBER" error="Please enter your phone number" mandatory="true"></field>
+				<field label="POSTAL ADDRESS" error="Please enter your address" mandatory="true"></field>
+				<field label="SUBURB" error="Please enter your city or suburb" mandatory="true"></field>
+				<field label="POST CODE" error="Please enter your postcode" mandatory="true"></field>
+				<field label="ENTER YOUR UNIQUE WINNING CODE" error="Please enter your unique winning code" mandatory="true"></field>
+				<field label="TERMS AND CONDITIONS" error="" mandatory="true" checkBox="true"><![CDATA[<p>I am 13 years of age, or older, and I accept the <a href="http://m-msbareall.com.au/conditions.aspx" target="_blank">Conditions of Entry</a></p>]]></field>
+				<field label="ACCEPT" error="" mandatory="true" checkBox="true">I understand that I must keep the pack that bears the unique code that I have entered and, if asked, I must hand it over in order to win a prize.</field>
+				<field label="OPT IN" error="" mandatory="false" checkBox="true">Yes, I would like to receive details about other Mars Australia or Mars New Zealand brand offers and information (which I understand will be sent to me via Email, SMS or Mail).</field>
+			</prizeRedemption>
+			<secondChance>
+				<heading>2nd CHANCE DRAW</heading>
+				<message><![CDATA[If you are not an instant winner, and the M&M'S® in your pack have their shells on,<br>complete this form to enter the second chance draw. <span class="emphasis">Fields marked * are mandatory</span>]]></message>
+				<findPostcode><![CDATA[<a href="http://www.nzpost.co.nz/Cultures/en-NZ/OnlineTools/PostCodeFinder/" target="_blank">Find your postcode</a> ]]></findPostcode>
+				<field label="FIRST NAME" error="Please enter your first name" mandatory="true"></field>
+				<field label="LAST NAME" error="Please enter your last name" mandatory="true"></field>
+				<field label="EMAIL" error="Please enter your email" mandatory="false"></field>
+				<field label="CONFIRM EMAIL" error="Please confirm your email" mandatory="false"></field>
+				<field label="COUNTRY" error="Please select your country" mandatory="true" comboBox="true" initialText="Please select a country">
+					<item label="Australia" value="AU"></item>
+					<item label="New Zealand" value="NZ"></item>
+				</field>
+				<field label="STATE" error="Please select your state" mandatory="true" comboBox="true" initialText="Please select a state">
+					<item label="Australian Capital Territory" value="ACT" />
+					<item label="New South Wales" value="NSW" />
+					<item label="Northern Territory" value="NT" />
+					<item label="Queensland" value="QLD" />
+					<item label="South Australia" value="SA" />
+					<item label="Tasmania" value="TAS" />
+					<item label="Victoria" value="VIC" />
+					<item label="Western Australia" value="WA" />
+				</field>
+				<field label="PHONE NUMBER" error="Please enter your phone number" mandatory="true"></field>
+				<field label="POSTAL ADDRESS" error="Please enter your address" mandatory="true"></field>
+				<field label="SUBURB" error="Please enter your city or suburb" mandatory="true"></field>
+				<field label="POST CODE" error="Please enter your postcode" mandatory="true"></field>
+				<field label="ENTER YOUR UNIQUE WINNING CODE" error="Please enter your unique winning code" mandatory="true"></field>
+				<field label="TERMS AND CONDITIONS" error="" mandatory="true" checkBox="true"><![CDATA[<p>I am 13 years of age, or older, and I accept the <a href="http://m-msbareall.com.au/conditions.aspx" target="_blank">Conditions of Entry</a></p>]]></field>
+				<field label="ACCEPT" error="" mandatory="true" checkBox="true">I understand that I must keep the pack that bears the unique code that I have entered and, if asked, I must hand it over in order to win a prize.</field>
+				<field label="OPT IN" error="" mandatory="false" checkBox="true">Yes, I would like to receive details about other Mars Australia or Mars New Zealand brand offers and information (which I understand will be sent to me via Email, SMS or Mail).</field>
+			</secondChance>			
+			<feedback>
+				<heading></heading>
+				<message><![CDATA[If you have any comments or queries regarding M&M'S®  Bare all, please send us your query here. <span class="emphasis">Fields marked * are mandatory</span> ]]></message>
+				<field label="FIRST NAME" error="Please enter your first name" mandatory="true"></field>
+				<field label="LAST NAME" error="Please enter your last name" mandatory="true"></field>
+				<field label="EMAIL" error="Please enter your email" mandatory="true"></field>
+				<field label="COUNTRY" error="Please select your country" mandatory="true" comboBox="true" initialText="Please select a country">
+					<item label="Australia" value="AU"></item>
+					<item label="New Zealand" value="NZ"></item>
+				</field>
+				<field label="STATE" error="Please select your state" mandatory="true" comboBox="true" initialText="Please select a state">
+					<item label="Australian Capital Territory" value="ACT" />
+					<item label="New South Wales" value="NSW" />
+					<item label="Northern Territory" value="NT" />
+					<item label="Queensland" value="QLD" />
+					<item label="South Australia" value="SA" />
+					<item label="Tasmania" value="TAS" />
+					<item label="Victoria" value="VIC" />
+					<item label="Western Australia" value="WA" />
+				</field>
+				<field label="POST CODE" error="Please enter your postcode" mandatory="true"></field>
+				<field label="POSTAL ADDRESS" error="Please enter your address" mandatory="true"></field>
+				<field label="SUBURB" error="Please enter your city or suburb" mandatory="true"></field>
+				<field label="PHONE NUMBER" error="Please enter your phone number" mandatory="true"></field>
+				<field label="PRODUCT TYPE" error="Please select the product type" mandatory="false" comboBox="true" initialText="Please select the product">
+					<item label="M&M'S®  Milk" value="MILK"></item>
+					<item label="M&M'S®  Peanut" value="PEANUT"></item>
+					<item label="M&M'S®  Crispy" value="CRISPY"></item>
+				</field>
+				<field label="UNIQUE CODE" error="" mandatory="false"></field>
+				<field label="PRIZE CLAIM ID" error="" mandatory="false"></field>
+				<field label="MESSAGE" error="Please enter a message" mandatory="true"></field>
+				<subject><![CDATA[MMS BARE ALL : Feedback]]></subject>
+				<toAddress>contact.mms@m-ms.com.au,ap.consumer@ap.effem.com</toAddress>
+			</feedback>
+			<results>
+				<major_winner>
+					<heading>YOU'RE A WINNER!</heading>
+					<message><![CDATA[<span class="bold">Congratulations you have won a $20,000 cash prize! Someone will contact you shortly to arrange your award. If you have any questions in the mean time please complete our feedback form.<br><br>Your prize ID # : </span>]]></message>
+					<meta><![CDATA[<span class="emphasis">If you have any questions in the mean time <br>please complete our feedback form.</span>]]></meta>
+					<button>FEEDBACK</button>
+				</major_winner>
+				<minor_winner>
+					<heading>YOU'RE A WINNER!</heading>
+					<message><![CDATA[<span class="bold">Congratulations you won a 1,000 x $100† Prepaid Gift Cards. We will place this in the mail so you will receive it within 28 working days. If you have any questions in the mean time please complete our feedback form.<br><br>Your prize ID # : </span>]]>	</message>
+					<meta>If you have any questions in the mean time please complete our feedback form.</meta>
+					<button>FEEDBACK</button>					
+				</minor_winner>
+				<second_chance>
+					<heading>SECOND CHANCE DRAW</heading>
+					<message><![CDATA[<span class="bold">You are entered in the second chance draw.<br><br>You have now been entered in the second chance draw. Any instant win prizes that have not been won at the end of the Entry Period will be awarded in a second chance draw which will commence at 12 noon on 30 July 2010.</span>]]></message>
+					<button>FEEDBACK</button>
+				</second_chance>
+				<invalid>
+					<heading>INVALID CODE</heading>
+					<message><![CDATA[<span class="bold">Sorry, the code <span class="alert">[code]</span> you entered is invalid or was entered incorrectly. Please check the pack's unique code and try again.</span>]]></message>
+					<button>TRY AGAIN</button>					
+				</invalid>
+				<error>
+					<heading>WEBSITE ERROR</heading>
+					<message><![CDATA[<span class="bold">Sorry, the web site has encountered an error please try again soon<br><br>Technical information : </span> <br>]]></message>
+					<button>TRY AGAIN</button>					
+				</error>
+			</results>
+			<closed>
+				<heading>SORRY, ENTRIES HAVE CLOSED</heading>
+				<message><![CDATA[The M&M'S® Bare All competition has come to an end and we will no longer be accepting entries. Be sure to check out our Winners page to see the competition results. <br><br>See you next time! ]]></message>
+			</closed>
+		</forms>
+		<share>
+			<twitter>http://twitter.com/home?status=Cover%20your%20eyes%2C%20it%27s%20the...%20stark-naked%20M%26M%27S%C2%AE.%20Oh%2C%20go%20on%2C%20have%20a%20peek%3A%20http%3A%2F%2Fm-msbareall.com.au%2F</twitter>
+			<facebook>http://www.facebook.com/share.php?u=http://m-msbareall.com.au</facebook>
+			<myspace>http://www.myspace.com/index.cfm?fuseaction=postto&t=M%26M'S%C2%AE%20Bare%20All&c=%3Cp%3ECover%20your%20eyes%2C%20it's%20the...%20stark-naked%20M%26M'S%C2%AE.%20Oh%2C%20go%20on%2C%20have%20a%20peek.%3C%2Fp%3E&u=http%3A%2F%2Fwww.m-msbareall.com&l=3</myspace>
+			<email>mailto:?subject=M%26M'S%AE Bare All &body=http://www.m-msbareall.com Cover your eyes, it's the... stark-naked M%26M'S%AE. Oh, go on, have a peek</email>
+		</share>
+		<footer>
+			<audio></audio>
+			<feedback>FEEDBACK</feedback>
+			<share>SHARE</share>
+			<lastNight>WHAT HAPPENED LAST NIGHT?</lastNight>
+			<narrative>WHERE IS CRISPY'S SHELL?</narrative>
+		</footer>
+		<disclaimer>
+			<![CDATA[<p>Single prize pool for Australia and New Zealand. Entrants must be aged 13 years, or older. Entry opens 9AM, 11/1/10 and closes 5PM, 28/5/10 (both Sydney time).  Entry is subject to &nbsp;  &nbsp; <a href="http://m-msbareall.com.au/conditions.aspx" target="_blank"> these conditions</a>.<br>†AU$100 gift card for Australian residents / NZ$100 gift card for New Zealand residents. ‡ A$20,000 for Australian or New Zealand residents.<br>
+			<br><a href="http://www.mars.com/global/policies/privacy/pp-english.aspx" target="_blank">Privacy Policy</a> | <a href="http://www.mars.com/privacy/np_english.html" target="_blank">Note to parents</a> | <a href="http://www.mars.com/privacy/ld_english.html" target="_blank">Legal</a> | <a href="html/default.aspx#Feedback" target="_blank">Contact us</a> | <a href="http://www.mars.com/" target="_blank">International</a> | <a href="http://m-msbareall.com.au/conditions.aspx" target="_blank">Competition Conditions</a> | <a href="google_sitemap.xml" target="_blank">Sitemap</a> | <a href="http://m-msbareall.com.au/SiteOwner.aspx" target="_blank">Site Owner</a> | <a href="html/Default.aspx" target="_self">Lite Site</a> | Mars® Registered Trademark © Mars Incorporated 2010.</p>]]>
+		</disclaimer>
+	</content>
+	<major_winners>
+		<winner>
+			<Initial>D</Initial>
+			<Surname>Beardsley</Surname>
+			<Postcode></Postcode>
+			<StateCode>VIC</StateCode>
+			<Country>Australia</Country>
+		</winner>
+		<winner>
+			<Initial>K</Initial>
+			<Surname>Crawford</Surname>
+			<Postcode></Postcode>
+			<StateCode>TAS</StateCode>
+			<Country>Australia</Country>
+		</winner>
+		<winner>
+			<Initial>M</Initial>
+			<Surname>Cookson</Surname>
+			<Postcode></Postcode>
+			<StateCode>NSW</StateCode>
+			<Country>Australia</Country>
+		</winner>
+	</major_winners>
+</siteData>

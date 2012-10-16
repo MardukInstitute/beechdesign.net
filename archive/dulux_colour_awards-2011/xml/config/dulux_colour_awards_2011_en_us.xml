@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--  NOTE: stringbundle_en_au is considered the default locale/language.  Essentially, all locales extend en_au.
+			So, when an alternate locale is set at run time, it's stingbundle xml is loaded in addition to stringbundle_en_au. 
+			When a string is requested from the StringBundleProxy, if it exists, the requested string is 
+			returned from the locale specific xml. If the string isn't found, the proxy will then attempt 
+			to find it in the default locale file. Failing that, an error message will be returned. -->
+<strings>
+	
+	<!-- ERRORS -->
+	
+	<string name="system.error.displayTitle"><![CDATA[Something's gone wrong.]]></string>
+	<string name="system.error.message.standard"><![CDATA[<p>We're sorry but we're experiencing technical difficulties that are preventing this page from working properly. We're sorry for the inconvenience.</p>]]></string>
+	<string name="system.error.message.server"><![CDATA[<p>We are unable to perform this operation due to a website communications error. Please contact the Dulux Colour Awards team on +61 3 9263 3607 so we can resolve the issue as soon as possible. Sorry for the inconvenience.</p>]]></string>
+
+	<string name="system.alert.leave_form.action"><![CDATA[LEAVE ENTRY FORM]]></string>
+	<string name="system.alert.leave_form.message"><![CDATA[Your entry isn't complete. If you continue you will need to login again to complete your entry.]]></string>
+	
+
+	<!-- TIMELINES -->
+
+   <string name="colourtimeline.history">
+        <item year="1955" 	name="SAUL BASS, %0DTHE MAN WITH THE GOLDEN ARM POSTER" 	type="history" 	colour_one="2b3a6a"     colour_two="7e7186"     colour_three="151413"     colour_four="513865">SAUL BASS, THE MAN WITH THE GOLDEN ARM POSTER</item>
+        <item year="1969" 	name="ROBIN BOYD, %0DFEATHERSTON HOUSE"     				type="history" 	colour_one="961a30"     colour_two="b6bd68"     colour_three="811d1f"     colour_four="539f52">ROBIN BOYD, FEATHERSTON HOUSE</item>
+        <item year="1977" 	name="ROGERS AND PIANO, %0DPOMPIDOU CENTRE"    				type="history" 	colour_one="9d1c3d"     colour_two="008ac3"     colour_three="520806"     colour_four="156e67">ROGERS AND PIANO, POMPIDOU CENTRE</item>
+        <item year="1999" 	name="PHILIPPE STARCK, %0DST MARTINS LANE HOTEL"     		type="history" 	colour_one="7e8c82"     colour_two="da9f27"     colour_three="ebc524"     colour_four="e88929">PHILIPPE STARCK, ST MARTENS LANE HOTEL</item>
+        <item year="2000" 	name="STEVEN HOLL, %0DSARPHATISTRAAT OFFICES"     			type="history" 	colour_one="689a93"     colour_two="4a645a"     colour_three="92c2b2"     colour_four="232d34">STEVEN HOLL, SARPHATISTRAAT OFFICES</item>
+        <item year="2006" 	name="JEAN NOUVEL, %0DMUSÉE DU QUAI BRANLY"     			type="history" 	colour_one="811d1f"     colour_two="3c1517"     colour_three="641617"     colour_four="220e10">JEAN NOUVEL, MUSÉE DU QUAI BRANLY</item>
+        <item year="2010"	name="ADD YOUR COLOURS TO HISTORY"			   				type="button" 	colour_one="ffffff"     colour_two="ffffff"     colour_three="ffffff"     colour_four="ffffff"></item>
+    </string>
+
+    <string name="colourtimeline.awards">
+	<item year="1986"     name="DENTON CORKER MARSHALL"     					type="awards" colour_one="c74531"     colour_two="5c9b9c">DENTON CORKER MARSHALL</item>
+	<item year="1987"     name="THE BUCHAN GROUP/WAS OLDHAM BOAS EDNIE-BROWN" 	type="awards" colour_one="997749"     colour_two="ec9d86">THE BUCHAN GROUP/WAS OLDHAM BOAS EDNIE-BROWN</item>
+	<item year="1988"     name="BLIGH JESSUP ROBINSON"     						type="awards" colour_one="0f7893"     colour_two="e5ba5a">BLIGH JESSUP ROBINSON</item>
+	<item year="1989"     name="NONDA KATSALIDIS"     							type="awards" colour_one="4a3830"     colour_two="a48872">NONDA KATSALIDIS</item>
+	<item year="1990"     name="COLIN STEWART URBAN DESIGN"     				type="awards" colour_one="176069"     colour_two="f5f19e">COLIN STEWART URBAN DESIGN</item>
+	<item year="1991"     name="PETER FREEMAN AND ASSOCIATES" 					type="awards" colour_one="b0bd9b"     colour_two="e98c3b">PETER FREEMAN AND ASSOCIATES</item>
+	<item year="1992"     name="SCOTT WESTON" 									type="awards" colour_one="90a852"     colour_two="437a94">SCOTT WESTON</item>
+	<item year="1993"     name="NEOMETRO" 										type="awards" colour_one="14517f"     colour_two="f4e441">NEOMETRO</item>
+	<item year="1994"     name="LAWRENCE NEILD & PARTNERS" 						type="awards" colour_one="b7c27e"     colour_two="ab462f">LAWRENCE NEILD & PARTNERS</item>
+	<item year="1995"     name="ALLAN POWELL AND RICHARD SWANSSON" 				type="awards" colour_one="87bbb1"     colour_two="bd5134">ALLAN POWELL AND RICHARD SWANSSON</item>
+	<item year="1996"     name="ASHTON RAGGATT MCDOUGALL" 						type="awards" colour_one="864a5c"     colour_two="3e9558">ASHTON RAGGATT MCDOUGALL</item>
+	<item year="1997"     name="SIX DEGREES"     								type="awards" colour_one="4d3949"     colour_two="92a785">SIX DEGREES</item>
+	<item year="1998"     name="SJB"     										type="awards" colour_one="bf9f79"     colour_two="3e4d68">SJB</item>
+	<item year="1999"     name="HASSELL"    									type="awards" colour_one="9c392b"     colour_two="de8336">HASSELL</item>
+	<item year="2000"     name="CANDALEPAS & ASSOSIATES" 						type="awards" colour_one="80665b"     colour_two="3e4d68">CANDALEPAS & ASSOSIATES</item>
+	<item year="2001"     name="BURLEY KATON HALLIDAY" 							type="awards" colour_one="62423a"     colour_two="c6b085">BURLEY KATON HALLIDAY</item>
+	<item year="2002"     name="KERSTIN THOMPSON ARCHITECTS" 					type="awards" colour_one="918b54"     colour_two="eff2d0">KERSTIN THOMPSON ARCHITECTS</item>
+	<item year="2003"     name="ANDY WONG DESIGN" 								type="awards" colour_one="6f4e36"     colour_two="aad1c2">ANDY WONG DESIGN</item>
+	<item year="2004"     name="PTW INTERIORS" 									type="awards" colour_one="c25e40"     colour_two="d7eceb">PTW INTERIORS</item>
+	<item year="2005"     name="MCBRIDE CHARLES RYAN" 							type="awards" colour_one="acbc45"     colour_two="e67b38">MCBRIDE CHARLES RYAN</item>
+	<item year="2006"     name="STEPHEN VARADY" 								type="awards" colour_one="11512a"     colour_two="c4452f">STEPHEN VARADY</item>
+	<item year="2007"     name="LIBERATI COLOUR" 								type="awards" colour_one="b12e2c"     colour_two="fad589">LIBERATI COLOUR</item>
+	<item year="2008"     name="CARR DESIGN" 									type="awards" colour_one="d1232f"     colour_two="d28340">CARR DESIGN</item>
+	<item year="2009"     name="ARM" 											type="awards" colour_one="7d83be"     colour_two="2e1855">ARM</item>
+	<item year="2010"     name="MCBRIDE CHARLES RYAN"							type="awards" colour_one="A8D1A3"     colour_two="325A8F">MCBRIDE CHARLES RYAN</item>
+    <item year="2010" 	  name="ADD YOUR COLOURS TO HISTORY"					type="button" colour_one="ffffff"     colour_two="ffffff"     colour_three="ffffff"     colour_four="ffffff"></item>
+    </string>
+
+
+	<string name="pages.footer.disclaimer"><![CDATA[The above projects are referenced purely as historic moments in colour design and were not necessarily created with Dulux® products.]]></string>
+
+	<!-- FORMS -->
+	
+	<string name="forms.login_form.heading"><![CDATA[LOGIN]]></string>
+	<string name="forms.login_form.copy"><![CDATA[<p>Login using your Dulux Specifier email address and password.<br>Not a member? <a href="http://www.dulux.com.au/specifier/site-tools/register" target="_blank">Register here.</a></p>]]></string>
+
+	<string name="forms.login_form.ui.login"><![CDATA[LOGIN]]></string>
+	<string name="forms.login_form.forgotton_password"><![CDATA[<p><a href="http://www.dulux.com.au/specifier/site-tools/forgotten-password?returnurl=http://www.dulux.com.au/specifier.aspx" target="_blank">Forgotten Password?</a></p>]]></string>
+
+	<string name="forms.register_form.heading"><![CDATA[NOT A MEMBER?]]></string>
+	<string name="forms.register_form.copy"><![CDATA[]]></string>
+	<string name="forms.register_form.ui.register"><![CDATA[REGISTER HERE]]></string>
+
+	<string name="forms.nz_png_form.heading"><![CDATA[NEW ZEALAND & PNG ENTRANTS]]></string>
+	<string name="forms.nz_png_form.copy"><![CDATA[<p>Entrants from New Zealand or Papua New Guinea must download the entry form.</p>]]></string>
+	<string name="forms.nz_png_form.ui.download_form"><![CDATA[DOWNLOAD ENTRY FORM]]></string>
+
+	<string name="forms.entries_submitted.heading"><![CDATA[ENTRIES SUBMITTED]]></string>
+
+	<string name="forms.member_details.heading"><![CDATA[YOUR DETAILS]]></string>
+	<string name="forms.member_details.change_copy"><![CDATA[<p><a href="http://dulux.com.au/specifier/site-tools/log-in" target="_blank">Update your details.</a></p>]]></string>
+
+	<string name="forms.select_category.ui.initial_text"><![CDATA[SELECT CATEGORY]]></string>
+	<string name="forms.select_category.ui.enter"><![CDATA[ENTER]]></string>
+
+
+	<string name="forms.entry_form.part_one.heading"><![CDATA[ENTRY FORM]]></string>
+	<string name="forms.entry_form.part_one.copy"><![CDATA[<p>Please fill in one form for each entry. Projects submitted for previous Dulux Colour Awards will not be accepted.</p>]]></string>
+
+	<string name="forms.entry_form.part_two.heading"><![CDATA[UPLOAD PHOTOS]]></string>
+	<string name="forms.entry_form.part_two.copy"><![CDATA[<p>A minimum of three and maximum of five digital images (showing a wide shot, close up and detail) of the project must be supplied. Images uploaded during the online entry process must not be larger than 2 MB file size per image.</p>]]></string>
+
+	<string name="forms.entry_form.part_three.heading"><![CDATA[DULUX PRODUCTS USED]]></string>
+	<string name="forms.entry_form.part_three.copy"><![CDATA[<p>All colours specified and paint used on the project must be from Dulux and listed below.</p>]]></string>
+
+	<string name="forms.entry_form.part_four.heading"><![CDATA[FINALISE YOUR ENTRY]]></string>
+	<string name="forms.entry_form.part_four.copy"><![CDATA[<p>Where did you hear about the Dulux Colour Awards?</p>]]></string>
+
+	<string name="forms.entry_form.part_four.ui.agree"><![CDATA[<p>I agree to the declaration.</p>]]></string>
+	<string name="forms.entry_form.part_four.ui.return"><![CDATA[<p>Please tick if you would like your colour board returned. Please enclose a cheque or money order for AU$40 for the cost of postage and handling. Cheques to be mad payable to Dulux Group.</p>]]></string>
+
+	<string name="forms.entry_form.complete.heading"><![CDATA[ENTRY SUBMITTED]]></string>
+	<string name="forms.entry_form.complete.copy"><![CDATA[Thank you, a confirmation email has been sent to your email address ]]></string>
+	<string name="forms.entry_form.complete.code_message"><![CDATA[<p>UNIQUE CODE: Please ensure that you clearly mark this unique code on the back of your colour board before sending.</p>]]></string>
+	<string name="forms.entry_form.complete.subhead"><![CDATA[NEXT STEPS?]]></string>
+	<string name="forms.entry_form.complete.next_copy"><![CDATA[<p><a href="event:how_to_enter">Complete your colour board</a></p>]]></string>
+
+
+	<string name="forms.entry_form.part_four.declaration"><![CDATA[<p>Declaration: I/we agree to abide by the rules of the competition outlined in the entry form and confirm that<br><p class="paragraphBreak">%0D</p>
+	(i) I/my company was responsible for specifying the Dulux colours nominated for the above project;<br><p class="paragraphBreak">%0D</p>
+	(ii) I/my company have/has obtained the express approval of the property owner to enter the project;<br><p class="paragraphBreak">%0D</p>
+	(iii) I/we have checked with the painting contractor and understand that Dulux paint was used. I/we understand that the judges’ decision is final, no correspondence will be entered into and that all material submitted becomes the property of Dulux.
+	<br><p class="paragraphBreak">%0D</p>I/we warrant that Dulux shall be entitled to forever retain and use all photographs and other materials provided by me/us for any promotional and related purposes without charge, and such use will not infringe any other person’s copyright or other intellectual property rights. 
+	<br><p class="paragraphBreak">%0D</p>See <a href="http://www.dulux.com.au/" target="_blank">dulux.com.au</a> for our <a href="http://www.dulux.com.au/privacy-policy" target="_blank">privacy policy</a>. I/we agree to make myself/ourselves available for interview/photo shoots for publicity purposes pertaining to the Awards. Dulux suggests winners seek independent financial advice regarding prize money.</p>]]></string>
+
+
+	<string name="pages.contact_us.heading"><![CDATA[CONTACT US]]></string>
+	<string name="pages.contact_us.body"><![CDATA[<p>For any questions, contact the Dulux Colour Awards team on: <br><br><b>Phone :</b> +61 3 9263 3607 <br><b>Email :</b>  <a href="mailto:dca@dulux.com.au">dca@dulux.com.au</a></p>]]></string>
+
+	<string name="pages.gallery.heading"><![CDATA[GALLERY]]></string>
+	<string name="pages.gallery.navigation.heading"><![CDATA[<p><b>Select a gallery:</b></p>]]></string>
+	
+	
+
+	<string name="pages.enter.heading"><![CDATA[ENTER THE AWARDS]]></string>
+	<string name="pages.enter.body"><![CDATA[<p>Entries to the Dulux Colour Awards officially open on 1 October 2010, and online entries can be submitted from here 19 October 2010. In the meantime, read about <a href="event:how_to_enter">How to Enter</a> to ensure you have everything you need to prepare your entry.</p>]]></string>
+
+	<string name="pages.enter.login_register.heading"><![CDATA[ENTER THE COMPETITION]]></string>
+	<string name="pages.enter.login_register.copy"><![CDATA[<p>Entry into the 2011 Dulux Colour Awards for Australian Architects, Designers and Students is a simple 4 step online process. If you have an existing Dulux Specifier account, login using your email and password. If you have not registered, please click the Register here link below and complete the online form. <br><br> Once logged in, follow the 4 easy steps.</p>]]></string>
+
+	<string name="pages.enter.welcome.heading"><![CDATA[WELCOME]]></string>
+	<string name="pages.enter.welcome.copy"><![CDATA[<p>Please check that the information below is correct before entering the competition.</p>]]></string>
+
+	<string name="pages.shortlist.heading"><![CDATA[2011 Short List Announced]]></string>
+	<string name="pages.shortlist.list">
+		<item name="Residential Exterior"></item>
+		<item name="Residential Interior"></item>
+		<item name="Commercial Exterior"></item>
+		<item name="Commercial Interior"></item>
+		<item name="Sustainable Interior"></item>
+		<item name="Students"></item>
+	</string>
+
+	<string name="pages.about.heading"><![CDATA[ABOUT THE DULUX COLOUR AWARDS]]></string>
+	<string name="pages.about.body"><![CDATA[<p>For 25 years now, the Dulux Colour Awards have been the preeminent award for exceptional use of colour in Architecture and Design. To celebrate this milestone, the latest in colour innovation will be recognised at this year’s 25th Silver Jubilee Anniversary. The work of influential architects and designers from Australia, New Zealand, PNG and Fiji will be judged by an esteemed panel of Australian design leaders, providing an inspirational showcase of colour in the built environment.</p><p class="paragraphBreak">%0D</p><p>So join past winners and the other greats of history by entering your work into the 2011 Dulux Colour Awards.</p><p class="paragraphBreak">%0D</p><br><p class="paragraphBreak">%0D</p><br>
+<p><span class="subhead">KEY DATES:</span><br>
+• Entries open – 1 October 2010<p class="paragraphBreak">%0D</p>
+• Online entries open – 19 October 2010 (Australia only)<p class="paragraphBreak">%0D</p>
+• Entry deadline- 8 February 2011<p class="paragraphBreak">%0D</p>
+• Short list announced - 20 February 2011<p class="paragraphBreak">%0D</p>
+• Winners announced - 30 March 2011</p>]]></string>
+
+<string name="pages.how_to_enter.heading"><![CDATA[HOW TO ENTER]]></string>
+<string name="pages.how_to_enter.body"><![CDATA[
+<p>Entries to the Dulux Colour Awards have now closed. 
+<br><br>For queries or questions regarding entry submissions call +61 3 9263 3607 or email <a href="mailto:dca@dulux.com.au">dca@dulux.com.au</a> <br><br>Winners will be awarded on March 31 at the exclusive Dulux Colour Awards Silver Jubilee ceremony.<br><br>Following the awards, the Grand Prix winner and category winners will be announced on this site.<p class="paragraphBreak">%0D</p>
+]]></string>
+
+<string name="pages.judging_panel.heading"><![CDATA[JUDGING PANEL]]></string>
+<string name="pages.judging_panel.body"><![CDATA[<p>2011 entries will be initially reviewed by a panel of Dulux colour specialists. Shortlisted entries will then be reviewed by three guest judges – themselves highly admired and acclaimed members of design related industries – who will select finalists and winners. These judges will be announced here in late 2010, so stay tuned.</p>]]></string>
+
+<string name="pages.judging_panel.brian"><![CDATA[<p>Brian Zulaikha is a founding partner of Tonkin Zulaikha Greer established in 1987. Prior to that his experience ranged from the Singapore Superior Courts Complex to the design and documentation of a number of high-rise office buildings and the design management of the highly successful Bicentennial refurbishment of the whole of Circular Quay in Sydney. Brian is currently the National President Elect of the Australian Institute of Architects.
+<br><p class="paragraphBreak">%0D</p>
+Brian has a special interest in environmentally sustainable design and has undertaken several projects specifically associated with the principles of environmentally sustainable design such as the award winning Affordable Housing Complex in Ultimo. Brian maintains a special interest in the integration of art and architecture and a commitment to the production of architecture that is of its time and that fuses a sensitive contemporary approach with functional and pragmatic requirements.
+<br><p class="paragraphBreak">%0D</p>
+Brian’s own house, the Zulaikha Laurence Residence, completed in early 2007 won the RAIA National Award for Residential Architecture (Houses).</p>]]></string>
+
+<string name="pages.judging_panel.kerry"><![CDATA[<p>Kerry Phelan established her own design practice, Kerry Phelan Design Office, in 2010, after 11 years as a founding director of Hecker Phelan & Guthrie. She now leads a team of young designers from her base in inner-city Melbourne, where their stable of work includes high-end residential, hospitality and retail projects located throughout Australia and South East Asia. 
+<br><p class="paragraphBreak">%0D</p>
+During her time at Hecker Phelan & Guthrie, Kerry was jointly responsible for some of the region’s most beautiful, creative and respected design projects, including the Establishment and Ivy in Sydney, the Botanical and Bistro Guillaume in Melbourne, and the beautiful JIA Boutique Hotel in Shanghai. Kerry’s extensive experience extends to strong client relationships, business acumen and design team leadership. With many awards to her name, Kerry commands the respect of the design industry.
+</p>]]></string>
+
+<string name="pages.judging_panel.kirrily"><![CDATA[<p>Kirrily Johnston is an Australian designer known for her casual elegance and innovative designs. The brand has two flagship stores in Australia and over 70 stockists internationally in the world’s most renowned Fashion precincts. In 2010 she was awarded the InStyle Women of Style Awards in the fashion category.
+<br><p class="paragraphBreak">%0D</p>
+Having received formal training at the Melbourne Institute of Textiles, Kirrily began her career in fashion in Melbourne in 1999. Now based in Sydney, her aim has been to blend elegance with innovation. Focusing on luxurious fabrics and quality craftsmanship, Kirrily's clothes are detailed and tailored yet maintain a sexy modern edge. 
+<br><p class="paragraphBreak">%0D</p>
+Kirrily opened her first boutique in Sydney, in June 2005. Her flagship store opened in February 2007 in her hometown of Melbourne, at 1033 High St, Armadale. Kirrily Johnston is sold in selected boutiques and department stores in Australia, USA, UK, Asia and New Zealand.
+</p>]]></string>
+
+
+
+<string name="pages.catagories_and_prizes.heading"><![CDATA[CATEGORIES & PRIZES]]></string>
+<string name="pages.catagories_and_prizes.body"><![CDATA[<p>The Dulux Colour Awards offers six entry categories and six chances to be recognised for exceptional use of colour. All individual category prizes include cash, a trophy and invaluable industry recognition. 
+<br><p class="paragraphBreak">%0D</p>
+
+<br><span class="subhead">CATEGORIES</span><br>
+<p class="paragraphBreak">%0D</p><b>Residential Exterior:</b> The exterior paint finishes of any building used as a private residence.<br>
+<p class="paragraphBreak">%0D</p><b>Residential Interior:</b> The interior paint finishes of any building used as a private residence.<br>
+<p class="paragraphBreak">%0D</p><b>Commercial Exterior:</b> The exterior paint finishes of any commercial or industrial building.<br>
+<p class="paragraphBreak">%0D</p><b>Commercial Interior:</b> The interior paint finishes of any commercial or industrial building.<br>
+<p class="paragraphBreak">%0D</p><b>Sustainable Interior:</b> Any interior paint project - commercial or residential - that uses Dulux Professional EnvirO2.<br>
+<p class="paragraphBreak">%0D</p><b>Students (years 1 to 6) :</b>	Paint specification by architecture or interior design students who are currently attending or have just completed - within the past 12 months - a course at a recognised university or college. <br>
+<p class="paragraphBreak">%0D</p><b>Grand Prix:</b> The best of show, selected from individual category winners. This must be a complete - built - project.<br>
+<br><p class="paragraphBreak">%0D</p>
+
+<br><span class="subhead">PRIZES</span><br><br>
+
+<b>Residential Exterior:</b>
+AUD$1500 prize & trophy.
+<br><p class="paragraphBreak">%0D</p>
+
+<b>Residential Interior:</b>
+AUD$1500 prize & trophy.
+<br><p class="paragraphBreak">%0D</p>
+
+<b>Commercial Exterior:</b>
+AUD$1500 prize & trophy.
+<br><p class="paragraphBreak">%0D</p>
+
+<b>Commercial Interior:</b>
+AUD$1500 prize & trophy.
+<br><p class="paragraphBreak">%0D</p>
+
+<b>Sustainable Interiors:</b>
+AUD$1500 prize & trophy.
+<br><p class="paragraphBreak">%0D</p>
+
+<b>Student category:</b>
+AUD$1000 prize & trophy. Plus, the opportunity to produce their own limited edition colour palette as part of the Designers for Dulux program. 
+<br><p class="paragraphBreak">%0D</p>
+
+<b>Grand Prix:</b>
+Includes winning category prize money and trophy. Plus, a trip to the highly renowned International Contemporary Furniture Fair in New York City, including a return business-class airfare and 5 nights accommodation.
+<br><p class="paragraphBreak">%0D</p> 
+
+All Dulux Colour Awards finalist projects will also be displayed at designEX. And as part of Dulux’s sponsorship of the Interior Designer Awards, Dulux Colour Awards finalists in the Commercial Interior and Residential Interior categories will be automatically entered into the Interior Designer Awards free of charge.</p>]]></string>
+
+</strings>
