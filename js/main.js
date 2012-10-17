@@ -1,39 +1,67 @@
-function loadSlides(){
-$(function () {
-	var titleString =  String($(this).attr('title'));
-	var ids = [];
-	var recent = [		"mms-slide-1",
-						"corona-slide",
-						"dulux-slide",
-						"carlton-slide",
-						"mercedes-slide",
-						"deakin-slide",
-						"smart-slide",
-						"anz-slide",
-						"bmw-slide"		];
-	
-	var older = [		"yellow-slide"	];
-	
-	if(titleString == "Michael Beech – Interactive Graphic Designer – Melbourne Australia"){
-		ids = recent;
-	}else if(titleString == "Michael Beech – Interactive Graphic Designer – Melbourne Australia – Older Projects"){
-		ids = older;
-	}else{
-	
+clickableProjects = ['canteen'];
+
+$(".rslides").each(
+	function(index)
+	{
+		nameOfProject = $(this).attr('id');
+		nameOfProject = nameOfProject.substr(0, nameOfProject.length - 6);
+		
+		for (var i=0;i<clickableProjects.length;i++)
+		{
+			if(nameOfProject == clickableProjects[i]){
+				$(this).css("cursor", "pointer");
+			}
+		}
 	}
+);
 
-	jQuery.each(ids, function() {
-      $("#" + this).responsiveSlides({
-		    auto: false,
-		    pager: false,
-		    nav: true,
-		    speed: 500,
-		    namespace: "slides-preview"
-		  });
+// ******************************************************************
+//  Slide setup functions
+// ******************************************************************
 
-       });
-});
+function loadSlides(){
+	$(function () {
+		var titleString =  String($(this).attr('title'));
+		var ids = [];
+		var recent = [		"mms_1-slide",
+							"corona-slide",
+							"canteen-slide",
+							"dulux-slide",
+							"mercedes-slide",
+							"deakin-slide",
+							"smart-slide",
+							"anz-slide",
+							"bmw-slide"		];
+		
+		var older = [		"carlton-slide",
+							"yellow-slide"	];
+		
+		if(titleString == "Michael Beech – Interactive Graphic Designer – Melbourne Australia"){
+			ids = recent;
+		}else if(titleString == "Michael Beech – Interactive Graphic Designer – Melbourne Australia – Older Projects"){
+			ids = older;
+		}else{
+	
+		}
+	
+		jQuery.each(ids, function() {
+	      $("#" + this).responsiveSlides({
+			    auto: false,
+			    pager: false,
+			    nav: true,
+			    speed: 500,
+			    namespace: "slides-preview"
+			});
+		});
+   });
 }
+
+window.onload = loadSlides;
+
+
+// ******************************************************************
+//  Scrolling functions
+// ******************************************************************
 
 
 $("nav ul li a").click(
@@ -54,18 +82,20 @@ $(".toTop").click(
 	}
 );
 
-
-var domainName 		= "beechdesign.net";
-var contactAddress  = "contact";
-
-$(".contact").click(
+$(".rslides").click(
 	function(){
+		nameOfProject = $(this).attr('id');
+		nameOfProject = nameOfProject.substr(0, nameOfProject.length - 6);
+		
+		for (var i=0;i<clickableProjects.length;i++)
+		{
+			if(nameOfProject == clickableProjects[i]){
+				window.open('design.html?project=' + clickableProjects[i]);
+			}
+		}
 
-		window.open("mailto:" + contactAddress + "@" + domainName,"_self");
-		return false;
 	}
 );
-
 
 $(".colophonToggle").click(
 	function(){
@@ -84,7 +114,26 @@ function scrollBottom(){
 	return false;
 }
 
-window.onload = loadSlides;
+
+// ******************************************************************
+//  Email Handler
+// ******************************************************************
+
+var domainName 		= "beechdesign.net";
+var contactAddress  = "contact";
+
+$(".contact").click(
+	function(){
+
+		window.open("mailto:" + contactAddress + "@" + domainName,"_self");
+		return false;
+	}
+);
+
+
+// ******************************************************************
+//  Set Date
+// ******************************************************************
 
 var d = new Date(); 
 year = d.getFullYear();

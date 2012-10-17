@@ -210,6 +210,11 @@ hgroup {
 	background-color: rgba(255,194,14,0.1);
 }
 
+.header-container
+{
+	padding-bottom: 20px;
+}
+
 nav h2 {
 	color:#303030;
 	font-size : 2.2em;
@@ -291,6 +296,57 @@ article p {
 	text-align: justify;
 }
 
+article section p a
+{
+	background-color: #fff0ba;
+	text-decoration: none;
+	color: #222;
+	padding:1px 2px 1px 2px;
+	margin: 0 0px 0 0px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+article section p a:hover{
+	background-color: #0072bc;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+article#design{
+	background:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}
+
+article#design h2{
+	text-align: center;
+}
+
+article#design ul, article#design li
+{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+article#design ul li {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+article#design img {
+	max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 
 footer img{
 	cursor: pointer;
